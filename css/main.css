@@ -513,12 +513,23 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.top-0 {
-  top: 0px;
+.m-16 {
+  margin: 4rem;
 }
 
-.m-0 {
-  margin: 0px;
+.mx-28 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .box-border {
@@ -533,20 +544,12 @@ video {
   height: 100vh;
 }
 
-.w-52 {
-  width: 13rem;
+.w-44 {
+  width: 11rem;
 }
 
 .w-screen {
   width: 100vw;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .flex-col {
@@ -574,37 +577,30 @@ video {
   background-color: rgb(28 22 36 / var(--tw-bg-opacity));
 }
 
-.fill-black {
-  fill: #000;
-}
-
-.fill-neonBlue {
-  fill: #03EDF9;
-}
-
-.stroke-red-500 {
-  stroke: #ef4444;
+.text-left {
+  text-align: left;
 }
 
 .text-center {
   text-align: center;
 }
 
-.font-kosugi {
-  font-family: Kosugi, sans-serif;
-}
-
 .font-dokdo {
   font-family: Dokdo, cursive;
 }
 
-.font-archivo {
-  font-family: Archivo, sans-serif;
+.font-kosugi {
+  font-family: Kosugi, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-4xl {
@@ -612,14 +608,17 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .text-neutral-500 {
@@ -632,39 +631,8 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
-.hover\:w-80:hover {
-  width: 20rem;
-}
-
-.hover\:w-56:hover {
-  width: 14rem;
-}
-
-.hover\:text-\[\#03EDF9\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(3 237 249 / var(--tw-text-opacity));
-}
-
-.hover\:text-neonPurple:hover {
-  --tw-text-opacity: 1;
-  color: rgb(200 135 242 / var(--tw-text-opacity));
-}
-
-.hover\:text-neonPink:hover {
-  --tw-text-opacity: 1;
-  color: rgb(249 114 197 / var(--tw-text-opacity));
 }
 
 .hover\:text-neonBlue:hover {
@@ -673,6 +641,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .tablet\:mx-40 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
   .tablet\:w-52 {
     width: 13rem;
   }
