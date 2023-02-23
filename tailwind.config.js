@@ -15,8 +15,10 @@ module.exports = {
     extend: {
       fontFamily: {
         'archivo': 'Archivo, sans-serif',
-        'dokdo': 'Dokdo, cursive',
-        'kosugi': 'Kosugi, sans-serif'
+        'kosugi': 'Kosugi, sans-serif',
+        'dm': 'DM Mono, monospace',
+        'outfit': 'Outfit, sans-serif',
+
       },
       colors: {
         darkPurple: '#1C1624',
