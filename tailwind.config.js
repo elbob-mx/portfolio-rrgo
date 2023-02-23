@@ -18,7 +18,12 @@ module.exports = {
         'kosugi': 'Kosugi, sans-serif',
         'dm': 'DM Mono, monospace',
         'outfit': 'Outfit, sans-serif',
-
+        'inconsolata': 'Inconsolata, monospace',
+        'karla': 'Karla, sans-serif',
+        'nanum': 'Nanum Pen Script, cursive',
+        'marker': 'Permanent Marker, cursive',
+        'rockSalt': 'Rock Salt, cursive',
+        'walter': 'Walter Turncoat, cursive'
       },
       colors: {
         darkPurple: '#1C1624',
