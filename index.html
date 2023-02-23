@@ -18,51 +18,49 @@
 <body class="box-border w-screen overflow-x-hidden" tabindex="0">
 
   <!-- INICIO -->
-  <section id="inicio" class="flex flex-col items-center justify-around w-screen h-screen bg-purple">
-    <img src="./img/rrgo-logo-big-w.svg" alt="roberto gutierrez logo" class="w-32 mt-12 laptop:w-48">
+  <section id="inicio" class="flex flex-col items-center w-screen h-screen justify-evenly bg-purple">
+    <img src="./img/rrgo-logo-big-w.svg" alt="roberto gutierrez logo" class="w-32 mobileHor:w-24 laptop:w-48">
 
-    <div class="m-10 text-xl leading-relaxed tracking-wide text-center text-white font-outfit laptop:text-3xl">
-      <p>Tienes una gran idea.<span class="text-2xl"> 😎</span></p>
-      <p class="text-4xl">Hagamos que destaque.</p>
+    <div class="leading-relaxed tracking-wide text-center text-white mobileHor:m-0 tablet:m-0 font-outfit">
+      <p class="tablet:text-3xl">Tienes una gran idea.<span class="text-3xl"> 😎</span></p>
+      <p class="text-2xl tablet:text-6xl">Hagamos que destaque.</p>
       <br>
-      <p class="text-5xl">🤯</p>
+      <p class="duration-700 mobile:text-6xl tablet:text-6xl hover:drop-shadow-lg hover:scale-150">🤯</p>
     </div>
 
-    <a href="#conoceme" class="mb-12 text-sm text-center duration-500 laptop:text-xl text-neonPurple hover:text-neonBlue font-kosugi">
+    <a href="#conoceme" class="text-sm text-center duration-700 laptop:text-xl text-neonPurple hover:text-neonBlue hover:translate-y-2 font-inconsolata">
       <p class="tracking-wider">conóceme</p>
       <i class="fa-solid fa-chevron-down"></i>
     </a>
   </section>
 
   <!-- CONOCEME -->
-  <section id="conoceme" class="flex flex-col items-center justify-around w-screen h-screen bg-darkPurple">
-
-    <a href="#inicio" class="mt-10 text-sm text-center duration-500 laptop:text-xl text-neonPurple hover:text-neonBlue font-kosugi">
+  <section id="conoceme" class="flex flex-col items-center w-screen h-screen justify-evenly mobile:p-5 tablet:p-10 max bg-darkPurple">
+    <a href="#inicio" class="mt-0 text-sm text-center duration-700 laptop:text-xl text-neonPurple hover:text-neonBlue hover:-translate-y-2 font-inconsolata">
       <i class="fa-solid fa-chevron-up"></i>
-      <p class="tracking-wider">inicio</p>
     </a>
 
-    <div class="mx-10 laptop:mx-52">
-      <h1 class="mb-8 text-xl text-white laptop:text-4xl font-walter">¡Hola! <span class="text-3xl laptop:text-5xl"> 👋 </span><br>
-         soy Roberto Gutiérrez</h1>
-      <p class="text-white laptop:leading-relaxed font-karla laptop:text-2xl">
-        Como diseñador gráfico he trabajado en múltiples proyectos, ya sean grandes empresas, innovadoras pymes o emprendedores con valiosas metas, siempre he cuidado sus proyectos como el más importante.</p>
+    <div class="mx-0 laptop:mx-52">
+
+      <h1 class="text-lg text-white mobile:text-2xl tablet:mb-4 mobile:mb-2 laptop:text-5xl font-walter laptop:mb-10">¡Hola! <span class="text-3xl laptop:text-5xl"> 👋 </span><br>
+         soy roberto gutiérrez</h1>
+
+      <p class="text-white laptop:leading-relaxed font-karla mobile:text-sm laptop:text-2xl">
+        Como diseñador gráfico he trabajado en múltiples proyectos, ya sean grandes empresas, innovadoras pymes o emprendedores con valiosas metas, siempre cuidando sus proyectos como el más importante.</p>
       <br>
-      <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed">
+
+      <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
         Editorial, ilustración, edición de video y mi pasión por la música, siempre han sido mis otras cartas de
-        presentación.
-      </p>
+        presentación.</p>
       <br>
-      <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed">
-        Recientemente emprendí la aventura del diseño UX, acompañado de convertirme en desarrollador full-stack. Todo un paso a la vez.
-      </p>
+
+      <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
+        Recientemente emprendí la aventura del diseño UX, acompañado de convertirme en desarrollador full-stack. Todo un paso a la vez.</p>
     </div>
 
-    <a href="#proyectos" class="mb-10 text-sm text-center duration-500 laptop:text-xl text-neonPurple hover:text-neonBlue font-kosugi">
-      <p class="tracking-wider">proyectos</p>
+    <a href="#proyectos" class="text-sm text-center duration-500 laptop:text-xl text-neonPurple hover:text-neonBlue font-inconsolata">
       <i class="fa-solid fa-chevron-down"></i>
     </a>
-
   </section>
 
   <section id="proyectos" class="flex flex-col items-center justify-around w-screen h-screen bg-purple">
@@ -78,8 +76,9 @@
 
   <section class="flex flex-col items-center justify-center w-screen h-screen bg-purple">
 
-    <a href="#inicio" class="mb-20 text-2xl text-center duration-500 text-neonPurple hover:text-neonBlue font-kosugi">
+    <a href="#inicio" class="mb-20 text-2xl text-center duration-500 text-neonPurple hover:text-neonBlue font-inconsolata">
       <i class="fa-solid fa-chevron-up"></i>
+      <p class="tracking-wider">inicio</p>
     </a>
 
     <footer>
