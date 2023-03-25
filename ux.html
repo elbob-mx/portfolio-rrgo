@@ -13,15 +13,24 @@
   <link rel="stylesheet" href="css/main.css">
   <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
 </head>
-<body class="box-border w-screen overflow-x-hidden bg-[#455E89]" tabindex="0">
+<body class="box-border w-screen overflow-x-hidden bg-neutral-700" tabindex="0">
   
-  <section class="flex flex-col items-center w-screen h-screen justify-evenly">
-    <div class="flex flex-row items-center justify-around w-full text-2xl">
-      <a href="index.html" class="items-center tablet:text-2xl text-base justify-around duration-700 text-neonPurple hover:text-neonPink font-karla"><i class="fa-solid fa-chevron-left"></i> inicio</a>
+  <section class="flex flex-col items-center w-screen h-screen gap-10 justify-center">
+
+    <div class="flex flex-row laptop:flex-col items-center gap-20 laptop:gap-5 justify-center align-middle w-full">
+      <a href="index.html" class="items-center align-middle tablet:text-2xl text-base justify-around duration-700 text-white hover:text-red-500 font-karla"><i class="fa-solid fa-chevron-left"></i> inicio</a>
       
-      <p class="tablet:text-2xl text-base font-karla text-neonBlue">caso práctico / Patitapps</p>
+      <p class="tablet:text-2xl laptop:text-4xl font-black font-karla text-teal-500 tracking-widest uppercase">proyectos UX</p>
     </div>
-    <embed src="./docs/patitapps-case-study.pdf" type="application/pdf" width="80%" height="650px" class="rounded-xl"/>
+
+    <div class="grid grid-cols-1 text-center gap-8">
+      <a href="rent-it.html"><p class="laptop:text-4xl text-2xl font-karla hover:bg-neutral-900 hover:rounded-md tracking-widest duration-500 text-white px-8 py-3"><span class="font-extrabold text-white">rentIT</span> : renta de vivienda simple</p></a> 
+
+      <a href="patitapps.html"><p class="laptop:text-4xl text-2xl font-karla hover:bg-neutral-900 hover:rounded-md tracking-widest duration-500 text-white px-8 py-3"><span class="font-extrabold text-white">Patitapps</span> : tienda de mascotas</p></a>
+
+      <a href="aqui-app.html"><p class="laptop:text-4xl text-2xl font-karla hover:bg-neutral-900 hover:rounded-md tracking-widest duration-500 text-white px-8 py-3"><span class="font-extrabold text-white">Aquí</span> : app de apoyo emocional</p></a>
+    </div>
+
   </section>
 
 </body>
