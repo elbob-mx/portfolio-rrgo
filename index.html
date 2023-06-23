@@ -13,7 +13,6 @@
     href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kosugi&family=Nanum+Pen+Script&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Rock+Salt&family=Walter+Turncoat&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="box-border w-screen overflow-x-hidden" tabindex="0">
@@ -78,37 +77,33 @@
   </section>
 
   <!-- PROYECTOS -->
-  <section id="proyectos" class="flex flex-col items-center justify-around w-screen h-screen bg-purple">
+  <section id="proyectos" class="grid tablet:grid-cols-3 grid-cols-1 tablet:gap-10 gap-4 items-center justify-between w-screen h-screen bg-purple laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 p-10">
 
-    <a href="#conoceme"
-      class="flex w-screen h-[14.28571428571429%] bg-transparent duration-700 text-center justify-center items-center text-neonPurple hover:text-neonBlue text-xl font-karla"><i
-        class="fa-solid fa-chevron-up"></i></a>
+    
+<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+<!-- Dropdown menu -->
+<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+      </li>
+    </ul>
+</div>
 
-    <a href="#"
-      class="flex w-screen h-[14.28571428571429%] hover:h-1/3 bg-[#2E6F95] hover:bg-violet-800 duration-700 text-center justify-center items-center text-white text-3xl font-karla">diseño
-      gráfico</a>
-
-    <a href="ux.html"
-      class="flex w-screen h-[14.28571428571429%] hover:h-1/3 bg-[#455E89] hover:bg-violet-800 duration-700 text-center justify-center items-center text-white text-3xl font-karla">UX</a>
-
-    <a href="#"
-      class="flex w-screen h-[14.28571428571429%] bg-[#5C4D7D] hover:h-1/3 hover:bg-violet-800 duration-700 text-center justify-center items-center text-white text-3xl font-karla">editorial</a>
-
-    <a href="#"
-      class="flex w-screen h-[14.28571428571429%] bg-[#723C70] hover:h-1/3 hover:bg-violet-800 duration-700 text-center justify-center items-center text-white text-3xl font-karla">ilustración</a>
-
-    <a href="#"
-      class="flex w-screen h-[14.28571428571429%] bg-[#892B64] hover:h-1/3 hover:bg-violet-800 duration-700 text-center justify-center items-center text-white text-3xl font-karla">música</a>
-
-    <a href="#footer"
-      class="flex w-screen h-[14.28571428571429%] bg-transparent duration-700 text-center justify-center items-center text-neonPurple hover:text-neonBlue text-xl font-karla"><i
-        class="fa-solid fa-chevron-down"></i></a>
-    <!-- <embed src="./docs/rentIT-case-study.pdf" type="application/pdf" width="70%" height="600px" /> -->
 
   </section>
 
   <!-- FOOTER -->
-  <footer id="footer" class="flex flex-col items-center justify-around w-screen h-screen bg-purple">
+  <footer id="footer" class="flex flex-col items-center justify-around w-screen h-screen bg-slate-800">
 
     <a href="#inicio"
       class="mt-0 text-xl text-center duration-700 text-neonPurple hover:text-neonBlue hover:-translate-y-2 font-karla">
@@ -138,6 +133,8 @@
     </ul>
   </footer>
 
+  <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
