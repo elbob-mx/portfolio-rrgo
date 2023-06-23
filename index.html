@@ -18,16 +18,16 @@
 <body class="box-border w-screen overflow-x-hidden" tabindex="0">
 
   <!-- INICIO -->
-  <section id="inicio" class="flex flex-col items-center justify-around w-screen h-screen bg-purple">
+  <section id="inicio" class="flex flex-col items-center justify-around w-screen h-screen p-6 laptop:p-0 bg-purple">
 
-    <div class="w-full flex flex-col justify-center items-center h-48 laptop:h-72">
+    <div class="flex flex-col items-center justify-center w-full h-48 laptop:h-72">
       <img src="./img/rrgo-logo-big-w.svg" alt="roberto gutierrez logo"
         class="w-screen h-1/3 mobileHor:w-24 mobile:w-40 laptop:w-56">
-      <p class="text-lg py-2 text-center font-dm text-zinc-400">design</p>
+      <p class="py-2 text-lg text-center font-dm text-zinc-400">design</p>
     </div>
 
     <div
-      class="leading-relaxed tracking-wide text-center flex justify-center items flex-col text-white mobileHor:m-0 h-1/3 tablet:m-0 font-outfit">
+      class="flex flex-col justify-center leading-relaxed tracking-wide text-center text-white items mobileHor:m-0 h-1/3 tablet:m-0 font-outfit">
       <p class="tablet:text-3xl mobile:text-2xl">Tienes una gran idea.<span class="text-3xl"> 😎</span></p>
       <p class="text-2xl mobile:text-3xl tablet:text-6xl">Hagamos que destaque.</p>
       <br>
@@ -35,14 +35,14 @@
     </div>
 
     <a href="#conoceme"
-      class="text-xl text-center duration-700 h-1/3 flex-col text-neonPurple justify-center items-center flex hover:text-neonBlue hover:translate-y-2 font-inconsolata">
+      class="flex flex-col items-center justify-center text-xl text-center duration-700 h-1/3 text-neonPurple hover:text-neonBlue hover:translate-y-2 font-inconsolata">
       <p class="tracking-wider">conóceme</p>
       <i class="fa-solid fa-chevron-down"></i>
     </a>
   </section>
 
   <!-- CONOCEME -->
-  <section id="conoceme" class="flex flex-col justify-between tablet:justify-around w-screen h-screen laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 p-10 bg-darkPurple">
+  <section id="conoceme" class="flex flex-col justify-between w-screen h-screen p-10 tablet:justify-around laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 bg-darkPurple">
 
     <a href="#inicio"
       class="text-xl text-center duration-700 text-neonPurple hover:text-neonBlue hover:-translate-y-2 font-inconsolata">
@@ -53,20 +53,20 @@
         class="text-3xl laptop:text-5xl"> 👋 </span>
       soy roberto gutiérrez</h1>
 
-    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-base">
+    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
       Como diseñador gráfico he trabajado en múltiples proyectos, ya sean grandes empresas, innovadoras pymes o startups
       con valiosas metas, siempre cuidando sus proyectos como el más importante.</p>
 
-    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-base">
+    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
       Editorial, ilustración, edición de video y mi pasión por la música, siempre han sido mis otras cartas de
       presentación.</p>
 
-    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-base">
+    <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
       Recientemente emprendí la aventura del diseño UX, también en proceso de convertirme en desarrollador full-stack.
       Todo un paso a la vez.</p>
 
     <a href="cv.html"
-      class="text-[#252525] tablet:mx-auto hover:shadow-lg hover:shadow-neonPink/60 hover:translate-y-1 tablet:w-2/4 justify-center w-auto font-bold text-sm text-center hover:text-white bg-neonBlue hover:bg-[#716383] rounded-xl p-3 duration-700 font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-lg">
+      class="text-[#252525] tablet:mx-auto hover:shadow-lg hover:shadow-neonPink/60 hover:translate-y-1 tablet:w-2/4 justify-center w-auto font-bold text-sm text-center hover:text-white bg-neonBlue hover:bg-[#716383] rounded-xl p-3 duration-700 font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-base">
       Aquí puedes encontrar mi CV</a>
 
     <a href="#proyectos"
@@ -77,7 +77,7 @@
   </section>
 
   <!-- PROYECTOS -->
-  <section id="proyectos" class="grid tablet:grid-cols-3 grid-cols-1 tablet:gap-10 gap-4 items-center justify-between w-screen h-screen bg-purple laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 p-10">
+  <section id="proyectos" class="grid items-center justify-between w-screen h-screen grid-cols-1 gap-4 p-10 tablet:grid-cols-3 tablet:gap-10 bg-purple laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10">
 
     
 <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
@@ -101,7 +101,7 @@
 </section>
 
   <!-- FOOTER -->
-  <footer id="footer" class="flex flex-col items-center justify-around w-screen h-screen bg-slate-800">
+  <footer id="footer" class="flex flex-col items-center justify-around w-screen h-screen p-6 bg-slate-800 laptop:p-0">
 
     <a href="#inicio"
       class="mt-0 text-xl text-center duration-700 text-neonPurple hover:text-neonBlue hover:-translate-y-2 font-karla">
@@ -113,23 +113,21 @@
     <p class="text-3xl text-center text-white font-outfit">gracias por tu visita 😉</p>
 
     <ul class="flex flex-row gap-14">
-      <li class="duration-500 hover:scale-110 text-5xl text-white hover:text-neonBlue font-karla"><a
-          href="mailto:rob7th@gmail.com"><i class="fa-solid fa-envelope"></i></i> <span class="text-base
-          items-center justify-center flex
-          ">mail</span></a></li>
+      <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
+          href="mailto:rob7th@gmail.com"><i class="fa-solid fa-envelope"></i></i> <span class="flex items-center justify-center text-base ">mail</span></a></li>
 
-      <li class="duration-500 hover:scale-110 text-5xl text-white hover:text-neonBlue font-karla"><a
-          href="https://github.com/elbob-mx"><i class="fa-brands fa-github"></i> <span class="text-base
-          items-center justify-center flex
-          ">github</span> </a></li>
+      <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
+          href="https://github.com/elbob-mx"><i class="fa-brands fa-github"></i> <span class="flex items-center justify-center text-base ">github</span> </a></li>
 
-      <li class="duration-500 hover:scale-110 text-5xl text-white hover:text-neonBlue font-karla"><a
+      <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
           href="https://www.linkedin.com/in/roberto-r-guti%C3%A9rrez-o-7066b887/"><i class="fa-brands fa-linkedin"></i>
-          <span class="text-base
-          items-center justify-center flex
-          ">linkedin</span></a></li>
+          <span class="flex items-center justify-center text-base ">linkedin</span></a></li>
     </ul>
   </footer>
+
+  <section>
+    <img src="./img/homer-simpson-work.gif" alt="aqui, trabajando" class="object-center w-screen h-screen laptop:object-cover brightness-75">
+  </section>
 
   <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
