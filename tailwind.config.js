@@ -25,7 +25,10 @@ module.exports = {
         'nanum': 'Nanum Pen Script, cursive',
         'marker': 'Permanent Marker, cursive',
         'rockSalt': 'Rock Salt, cursive',
-        'walter': 'Walter Turncoat, cursive'
+        'walter': 'Walter Turncoat, cursive',
+        animation: {
+          'spin-slow': 'spin 1s ease-in-out infinite',
+        }
       },
       colors: {
         darkPurple: '#1C1624',

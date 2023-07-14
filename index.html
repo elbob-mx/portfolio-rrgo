@@ -22,27 +22,28 @@
 
     <div class="flex flex-col items-center justify-center w-full h-48 laptop:h-72">
       <img src="./img/rrgo-logo-big-w.svg" alt="roberto gutierrez logo"
-        class="w-screen h-1/3 mobileHor:w-24 mobile:w-40 laptop:w-56">
+        class="w-screen h-1/3 mobileHor:w-24 mobile:w-40 laptop:w-56 tablet:w-52">
       <p class="py-2 text-lg text-center font-dm text-zinc-400">design</p>
     </div>
 
     <div
       class="flex flex-col justify-center leading-relaxed tracking-wide text-center text-white items mobileHor:m-0 h-1/3 tablet:m-0 font-outfit">
-      <p class="tablet:text-3xl mobile:text-2xl">Tienes una gran idea.<span class="text-3xl"> 😎</span></p>
+      <p class="tablet:text-5xl mobile:text-2xl">Tienes una gran idea,</p>
       <p class="text-2xl mobile:text-3xl tablet:text-6xl">Hagamos que destaque.</p>
       <br>
-      <p class="duration-700 mobile:text-6xl tablet:text-6xl hover:drop-shadow-lg hover:scale-150">🤯</p>
+      <p class="duration-700 mobile:text-6xl tablet:text-6xl hover:drop-shadow-lg hover:scale-125">🤯</p>
     </div>
 
     <a href="#conoceme"
       class="flex flex-col items-center justify-center text-xl text-center duration-700 h-1/3 text-neonPurple hover:text-neonBlue hover:translate-y-2 font-inconsolata">
-      <p class="tracking-wider">conóceme</p>
+      <p class="tracking-wider animate-bounce">conóceme</p>
       <i class="fa-solid fa-chevron-down"></i>
     </a>
   </section>
 
   <!-- CONOCEME -->
-  <section id="conoceme" class="flex flex-col justify-between w-screen h-screen p-10 tablet:justify-around laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 bg-darkPurple">
+  <section id="conoceme"
+    class="flex flex-col justify-between w-screen h-screen p-10 tablet:justify-around laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10 bg-darkPurple">
 
     <a href="#inicio"
       class="text-xl text-center duration-700 text-neonPurple hover:text-neonBlue hover:-translate-y-2 font-inconsolata">
@@ -54,7 +55,7 @@
       soy roberto gutiérrez</h1>
 
     <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
-      Como diseñador gráfico he trabajado en múltiples proyectos, ya sean grandes empresas, innovadoras pymes o startups
+      Como diseñador he trabajado en múltiples proyectos, ya sean grandes empresas, innovadoras pymes o startups
       con valiosas metas, siempre cuidando sus proyectos como el más importante.</p>
 
     <p class="text-white font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-sm">
@@ -69,36 +70,23 @@
       class="text-[#252525] tablet:mx-auto hover:shadow-lg hover:shadow-neonPink/60 hover:translate-y-1 tablet:w-2/4 justify-center w-auto font-bold text-sm text-center hover:text-white bg-neonBlue hover:bg-[#716383] rounded-xl p-3 duration-700 font-karla laptop:text-2xl laptop:leading-relaxed mobile:text-base">
       Aquí puedes encontrar mi CV</a>
 
-    <a href="#proyectos"
-      class="text-xl text-center duration-500 text-neonPurple hover:text-neonBlue font-inconsolata">
+    <a href="#proyectos" class="text-xl text-center duration-500 text-neonPurple hover:text-neonBlue font-inconsolata">
       <i class="fa-solid fa-chevron-down"></i>
     </a>
 
   </section>
 
   <!-- PROYECTOS -->
-  <section id="proyectos" class="grid items-center justify-between w-screen h-screen grid-cols-1 gap-4 p-10 tablet:grid-cols-3 tablet:gap-10 bg-purple laptop:px-36 laptop:py-20 tablet:px-20 tablet:py-10">
+  <section id="proyectos"
+    class="grid w-screen h-screen grid-cols-1 tablet:grid-cols-3 place-items-stretch">
 
-    
-<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-<!-- Dropdown menu -->
-<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-</section>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>diseño grafico</div></a>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>ilustración</div></a>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>editorial</div></a>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>diseño web</div></a>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>UX</div></a>
+    <a href="#" class="bg-neutral-500 grid duration-500 hover:bg-[#252525] text-2xl text-center hover:text-neonBlue font-semibold font-karla place-items-center"><div>música</div></a>
+  </section>
 
   <!-- FOOTER -->
   <footer id="footer" class="flex flex-col items-center justify-around w-screen h-screen p-6 bg-slate-800 laptop:p-0">
@@ -109,15 +97,17 @@
     </a>
 
     <p class="text-2xl leading-relaxed text-center text-white tablet:text-5xl font-outfit">¿Cómo te puedo ayudar?<br>
-      Cualquier duda, aquí estoy.</p>
+      Hablemos.</p>
     <p class="text-3xl text-center text-white font-outfit">gracias por tu visita 😉</p>
 
     <ul class="flex flex-row gap-14">
       <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
-          href="mailto:rob7th@gmail.com"><i class="fa-solid fa-envelope"></i></i> <span class="flex items-center justify-center text-base ">mail</span></a></li>
+          href="mailto:rob7th@gmail.com"><i class="fa-solid fa-envelope"></i></i> <span
+            class="flex items-center justify-center text-base ">mail</span></a></li>
 
       <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
-          href="https://github.com/elbob-mx"><i class="fa-brands fa-github"></i> <span class="flex items-center justify-center text-base ">github</span> </a></li>
+          href="https://github.com/elbob-mx"><i class="fa-brands fa-github"></i> <span
+            class="flex items-center justify-center text-base ">github</span> </a></li>
 
       <li class="text-5xl text-white duration-500 hover:scale-110 hover:text-neonBlue font-karla"><a
           href="https://www.linkedin.com/in/roberto-r-guti%C3%A9rrez-o-7066b887/"><i class="fa-brands fa-linkedin"></i>
@@ -125,10 +115,11 @@
     </ul>
   </footer>
 
-  <section>
-    <img src="./img/homer-simpson-work.gif" alt="aqui, trabajando" class="object-center w-screen h-screen laptop:object-cover brightness-75">
-  </section>
+  <div id="cursor">
+    <div id="ball" class="absolute z-50 w-8 h-8 rounded-full pointer-events-none top-80 left-80 bg-neonPink"></div>
+  </div>
 
+  <script src="cursor.js"></script>
   <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
