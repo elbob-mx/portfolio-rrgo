@@ -1007,10 +1007,6 @@ input:checked + .toggle-bg {
   }
 }
 
-.pointer-events-none {
-  pointer-events: none;
-}
-
 .visible {
   visibility: visible;
 }
@@ -1058,20 +1054,12 @@ input:checked + .toggle-bg {
   left: 0px;
 }
 
-.left-80 {
-  left: 20rem;
-}
-
 .right-0 {
   right: 0px;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.top-80 {
-  top: 20rem;
 }
 
 .z-10 {
@@ -1092,6 +1080,16 @@ input:checked + .toggle-bg {
 
 .z-50 {
   z-index: 50;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .mb-1 {
@@ -1166,10 +1164,6 @@ input:checked + .toggle-bg {
   height: 1.5rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -1192,10 +1186,6 @@ input:checked + .toggle-bg {
 
 .w-64 {
   width: 16rem;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .w-auto {
@@ -1384,10 +1374,6 @@ input:checked + .toggle-bg {
 
 .scroll-smooth {
   scroll-behavior: smooth;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded-lg {
@@ -1592,6 +1578,11 @@ input:checked + .toggle-bg {
   padding-bottom: 0.75rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -1657,16 +1648,6 @@ input:checked + .toggle-bg {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-black {
@@ -1893,6 +1874,11 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:text-\[\#25d366\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 211 102 / var(--tw-text-opacity));
+}
+
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
@@ -1921,21 +1907,6 @@ input:checked + .toggle-bg {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#34B7F1\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(52 183 241 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#25d366\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(37 211 102 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#0e76a8\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(14 118 168 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-lg:hover {
