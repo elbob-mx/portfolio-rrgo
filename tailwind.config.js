@@ -31,6 +31,8 @@ module.exports = {
         }
       },
       colors: {
+        offBlack: '#181818',
+        offWhite: '#F2F2F2',
         darkPurple: '#1C1624',
         neonBlue: '#03EDF9',
         neonPink: '#F972C5',
