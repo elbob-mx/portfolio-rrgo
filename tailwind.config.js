@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.html',
-    "./node_modules/flowbite/**/*.js",
 ],
   theme: {
     screens: {
@@ -30,8 +29,4 @@ module.exports = {
         purple: '#252641'
       }
     },
-  },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
+  }
