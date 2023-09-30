@@ -16,18 +16,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'archivo': 'Archivo, sans-serif',
-        'kosugi': 'Kosugi, sans-serif',
         'dm': 'DM Mono, monospace',
-        'outfit': 'Outfit, sans-serif',
         'inconsolata': 'Inconsolata, monospace',
-        'karla': 'Karla, sans-serif',
-        'nanum': 'Nanum Pen Script, cursive',
-        'marker': 'Permanent Marker, cursive',
-        'rockSalt': 'Rock Salt, cursive',
-        'walter': 'Walter Turncoat, cursive',
-        animation: {
-          'spin-slow': 'spin 1s ease-in-out infinite',
         }
       },
       colors: {
